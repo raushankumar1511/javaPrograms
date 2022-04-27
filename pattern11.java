@@ -14,7 +14,7 @@ while(row<=n){
     nsp-=1;
     int cst=1;
     while(cst<=nst){
-        if(cst%2==0){
+        if(cst%2!=0){
 
             System.out.print("* ");
         }else{
